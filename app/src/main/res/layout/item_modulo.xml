@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/bg_modulo"
+    android:gravity="center"
+    android:elevation="4dp">
+
+    <!-- Imagen del módulo -->
+    <ImageView
+        android:id="@+id/imgModulo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/modulo1"
+        android:background="@drawable/bg_modulo" />
+
+    <!-- Nombre -->
+    <TextView
+        android:id="@+id/tvNombreModulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Punto de Reciclaje 1"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#2E7D32" />
+
+    <!-- Descripción -->
+    <TextView
+        android:id="@+id/tvDescripcionModulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recibe botellas, latas y plásticos"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="#555555" />
+
+    <!-- Distancia -->
+    <TextView
+        android:id="@+id/tvDistancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distancia: -- m"
+        android:textSize="12sp"
+        android:textColor="#888888"
+        android:layout_marginTop="4dp" />
+
+    <!-- Fila de botones (solo visible para admin) -->
+    <LinearLayout
+        android:id="@+id/layoutBotones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/btnEditar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_edit"
+            android:contentDescription="Editar módulo"
+            app:tint="#2E7D32" />
+
+        <ImageButton
+            android:id="@+id/btnEliminar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete"
+            android:contentDescription="Eliminar módulo"
+            android:layout_marginStart="8dp"
+            app:tint="#D32F2F" />
+    </LinearLayout>
+
+</LinearLayout>

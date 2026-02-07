@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.ModulosFragment">
+
+    <!-- Lista de módulos -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerModulos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/item_modulo" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAgregarModulo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="95dp"
+        android:contentDescription="Agregar módulo"
+        android:src="@drawable/ic_add"
+        app:maxImageSize="48dp"
+        android:visibility="gone"
+    app:backgroundTint="@color/green_light"
+    app:tint="@android:color/white"
+    android:elevation="100dp"
+    android:translationZ="100dp" />
+
+
+
+</FrameLayout>

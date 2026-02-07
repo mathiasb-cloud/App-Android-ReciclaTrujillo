@@ -1,0 +1,6 @@
+<!-- bg_modulo_cercano.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@android:color/white"/>
+    <stroke android:width="3dp" android:color="#4CAF50"/>
+    <corners android:radius="12dp"/>
+</shape>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores base del tema -->
+    <color name="colorPrimary">#2E7D32</color> <!-- Verde ecológico -->
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#66BB6A</color>
+
+    <!-- Tonos complementarios -->
+    <color name="teal_700">#00796B</color>
+    <color name="green_light">#A5D6A7</color>
+    <color name="red">#D32F2F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#555555</color>
+    <color name="black_translucent_40">#66000000</color>
+
+
+    <!-- Fondo general -->
+    <color name="backgroundColor">#F9FFF9</color>
+</resources>

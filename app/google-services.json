@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44782921951",
+    "project_id": "reciclatrujillo-31b71",
+    "storage_bucket": "reciclatrujillo-31b71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44782921951:android:afe0ec950e387e88bc216a",
+        "android_client_info": {
+          "package_name": "com.cibertec.ecotrujilloapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6Wykn2zkKFYEfIcA-3coOuaLUBjHRWKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
