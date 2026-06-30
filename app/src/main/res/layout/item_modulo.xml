@@ -17,7 +17,6 @@
         android:src="@drawable/modulo1"
         android:background="@drawable/bg_modulo" />
 
-    <!-- Nombre -->
     <TextView
         android:id="@+id/tvNombreModulo"
         android:layout_width="wrap_content"
