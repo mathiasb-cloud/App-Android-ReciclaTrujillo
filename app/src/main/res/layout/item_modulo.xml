@@ -27,7 +27,6 @@
         android:layout_marginTop="8dp"
         android:textColor="#2E7D32" />
 
-    <!-- Descripción -->
     <TextView
         android:id="@+id/tvDescripcionModulo"
         android:layout_width="wrap_content"
