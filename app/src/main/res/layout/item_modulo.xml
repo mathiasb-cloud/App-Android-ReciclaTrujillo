@@ -45,7 +45,6 @@
         android:textColor="#888888"
         android:layout_marginTop="4dp" />
 
-    <!-- Fila de botones (solo visible para admin) -->
     <LinearLayout
         android:id="@+id/layoutBotones"
         android:layout_width="wrap_content"
