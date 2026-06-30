@@ -34,7 +34,6 @@
             app:backgroundTint="@android:color/white"
             app:tint="@android:color/black" />
 
-        <!-- 🔹 Botones flotantes del mapa -->
         <LinearLayout
             android:id="@+id/layoutBotonesMapa"
             android:layout_width="wrap_content"
