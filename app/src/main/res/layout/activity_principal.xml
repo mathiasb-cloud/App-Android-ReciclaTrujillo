@@ -33,7 +33,6 @@
             android:elevation="16dp"
             android:translationZ="8dp" />
 
-        <!-- MENÚ INFERIOR -->
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigation"
             android:layout_width="match_parent"
