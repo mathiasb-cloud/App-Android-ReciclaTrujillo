@@ -14,7 +14,6 @@
         android:background="@android:color/white"
         android:layout_gravity="center" />
 
-    <!-- CONTENEDOR DE BOTONES -->
     <FrameLayout
         android:id="@+id/overlayContainer"
         android:layout_width="match_parent"
