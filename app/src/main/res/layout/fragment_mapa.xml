@@ -21,7 +21,6 @@
         android:clipChildren="false"
         android:clipToPadding="false">
 
-        <!-- 🔹 Botón hamburguesa -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/btnMenu"
             android:layout_width="wrap_content"
