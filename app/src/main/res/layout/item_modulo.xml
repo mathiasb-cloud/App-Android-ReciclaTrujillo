@@ -36,7 +36,6 @@
         android:gravity="center"
         android:textColor="#555555" />
 
-    <!-- Distancia -->
     <TextView
         android:id="@+id/tvDistancia"
         android:layout_width="wrap_content"
