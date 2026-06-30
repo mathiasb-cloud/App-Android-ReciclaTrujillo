@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:background="@android:color/white">
 
-    <!-- CONTENEDOR PRINCIPAL -->
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinator"
         android:layout_width="match_parent"
