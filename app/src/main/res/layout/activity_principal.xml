@@ -19,7 +19,6 @@
             android:layout_height="match_parent"
             android:background="@android:color/white" />
 
-        <!-- BOTÓN MENÚ (fuera del fragmento) -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/btnMenu"
             android:layout_width="wrap_content"
